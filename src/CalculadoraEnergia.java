@@ -42,7 +42,7 @@ public class CalculadoraEnergia {
 
         double valorFinal = valorBruto + adicional;
 
-        // e se o consumo for zero? casa vazia tdodos foram viajar. A CPF cobra uma taxa minima.
+        // e se o consumo for zero? casa vazia, todos foram viajar. A CPFL cobra uma taxa minima.
         if (valorFinal < 30){
             valorFinal = 30;
         }
