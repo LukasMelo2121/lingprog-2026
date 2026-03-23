@@ -32,7 +32,6 @@ public class MaiorEOMenor {
             }
         }
 
-        // 4. Mostrar resultado
         System.out.println("Maior: " + maior + " posição: " + posMaior);
         System.out.println("Menor: " + menor + " posição: " + posMenor);
     }
